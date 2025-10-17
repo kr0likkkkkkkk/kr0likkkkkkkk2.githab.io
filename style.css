@@ -1,88 +1,98 @@
-*{
+* {
     margin: 0;
     font-family: 'Lobster', cursive;
 }
 
-body{
+body {
     background-image: url(https://i.pinimg.com/originals/10/44/3c/10443cf8d294d25c540d95e849728f75.png);
     background-repeat: repeat;
+    /*повторение изображения по x и y*/
     background-size: contain;
+    /*масштаб изображения, полностью помещается в элемент*/
     width: 100vw;
     height: 100%;
 }
 
-header{
+header {
+    /*Шапка*/
     background-color: #f8d3e2;
     width: 100%;
     height: 150px;
     float: left;
+    /*прижимается к левому краю*/
 }
-.rounded-image
-{
+
+.rounded-image {
     border-radius: 10px;
 }
 
-.name{
+.name {
+    /*для названия сайта*/
     float: left;
     margin-top: 15px;
 }
-#logo{
+
+#logo {
     width: 100px;
     height: 100px;
     margin: 20px;
     float: left;
-    animation: log 3s ;
+    animation: log 3s;
 }
 
-@keyframes log{
-    0%{
+@keyframes log {
+    0% {
         transform: rotate(0deg) scale(1);
     }
-    100%{
+
+    100% {
         transform: rotate(360deg) scale(1);
     }
 }
 
-nav{
+nav {
     float: right;
     margin: 20px;
 }
 
-.nav-link{
-    padding-left:100px ;
+.nav-link {
+    padding-left: 100px;
     font-size: 25px;
 }
 
-.container{
+.container {
     max-width: 960px;
     width: 100%;
     margin: auto;
     background-color: #b63dac48;
 }
 
-.tablic{
+.tablic {
     width: 80%;
     margin: auto;
-     border: 1px solid grey;
-     background-color: #fff;
+    border: 1px solid grey;
+    background-color: #fff;
 }
 
 th {
-   border: 1px solid grey;
+    border: 1px solid grey;
 }
 
 td {
-   border: 1px solid grey;
+    border: 1px solid grey;
 }
 
-.chet{
+.chet {
     background: #e7a0c5;
 }
-footer
-{
-background-color: #e6b1c6;
+
+.nechet {
+    background: #f2e6ec;
+}
+
+footer { 
+    background-color: #e6b1c6;
     width: 100%;
     height: 20px;
     float: left;
-
 }
